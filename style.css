@@ -113,13 +113,13 @@ button {
 button:hover {
   cursor: pointer;
 }
-.proceedBtn:hover {
+.proceedBtn:active {
   background-color: #766cf1;
 }
-.cancelBtn:hover {
+.cancelBtn:active {
   opacity: 1;
 }
-a:hover {
+a:active {
   color: #766cf1;
   text-decoration: none;
 }
