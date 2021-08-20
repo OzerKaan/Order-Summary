@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+html {
+  height: 100%;
+}
 body {
   /* Primary */
 
@@ -12,20 +15,26 @@ body {
 
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: var(--Pale-blue);
   background-image: url("/images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-size: 100%;
+  background-position-y: -15%;
+  margin: 0;
+  height: inherit;
 }
 
 .mainCard {
-  width: 453px;
-  height: 702px;
+  width: 450px;
+  height: 697px;
   display: flex;
   flex-direction: column;
   background-color: white;
   align-items: center;
   border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 25px 20px 0 hsla(245, 75%, 52%, 0.082);
 }
 
 .heroIMG {
@@ -45,11 +54,11 @@ h2 {
   color: var(--Dark-blue);
 }
 p {
-  margin: -7px 25px;
-  font-size: 15.5px;
+  margin: -7px 30px;
+  font-size: 16px;
   font-family: "Red Hat Display";
-  font-weight: 700;
-  opacity: 0.5;
+  font-weight: 500;
+  opacity: 0.6;
   color: var(--Dark-blue);
   line-height: 26px;
 }
@@ -58,15 +67,15 @@ p {
   display: flex;
   text-align: center;
   background-color: var(--Very-pale-blue);
-  border-radius: 9px;
+  border-radius: 14px;
   width: 79%;
-  height: 450px;
+  height: 50%;
   align-items: center;
-  margin: 26px 0 32px 0;
+  margin: 26px 0 30px 0;
 }
 .music-icon {
-  width: 50px;
-  height: 50px;
+  width: 48px;
+  height: 48px;
   margin: 25px;
 }
 .plan-price {
@@ -82,7 +91,7 @@ p {
   opacity: 0.4;
 }
 a {
-  margin: 2px 0 0 98px;
+  margin: 0px 0 0 93px;
   font-size: 14px;
   font-family: "Red Hat Display";
   font-weight: bold;
@@ -95,10 +104,10 @@ a {
   height: 100%;
 }
 button {
-  padding: 16px;
+  padding: 15px;
   font-family: "Red Hat Display";
   font-weight: 700;
-  border-radius: 10px;
+  border-radius: 12px;
   border: none;
   font-size: 15px;
 }
@@ -112,7 +121,7 @@ button {
 }
 .cancelBtn {
   background-color: inherit;
-  opacity: 0.4;
+  opacity: 0.5;
   font-weight: 900;
 }
 
