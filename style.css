@@ -27,10 +27,10 @@ body {
 }
 
 .mainCard {
-  /* width: 450px; */
-  width: 24.2vw;
-  /* height: 697px; */
-  height: 72vh;
+  width: 450px;
+  /* width: 24.2vw; */
+  height: 697px;
+  /* height: 72vh; */
   display: flex;
   flex-direction: column;
   background-color: white;
